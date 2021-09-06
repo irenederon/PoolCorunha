@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/bolasbillar">
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/galeria"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/estiloLetras"/>
+
+    <ImageView
+        android:id="@+id/fotos"
+        android:layout_width="414dp"
+        android:layout_height="351dp"
+        android:layout_marginTop="169dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_gallery"
+        app:layout_constraintVertical_bias="0.068"
+        app:srcCompat="@drawable/foto1" />
+
+    <ImageButton
+        android:id="@+id/adelante"
+        style="@style/botonesFoto"
+        android:layout_width="41dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/fotos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/atras"
+        app:srcCompat="@drawable/adelante" />
+
+    <ImageButton
+        android:id="@+id/atras"
+        style="@style/botonesFoto"
+        android:layout_width="41dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/fotos"
+        app:layout_constraintEnd_toStartOf="@+id/adelante"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/atras" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

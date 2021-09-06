@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="locales">
+        <item>Escolle un local</item>
+        <item>Pub Vela</item>
+        <item>Café Tío Ovidio2</item>
+        <item>Club Don Bosco de Billar</item>
+        <item>A Queimada Pool</item>
+        <item>Cafetería Torreiro</item>
+        <item>La Bola Coruña</item>
+        <item>Cervecería 7+7</item>
+        <item>Pozo da Cruz</item>
+    </string-array>
+</resources>

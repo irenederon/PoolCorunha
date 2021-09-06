@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Billar Coruña</string>
+    <string name="usu">Usuario</string>
+    <string name="email">    Email</string>
+    <string name="email1">Introduce o email</string>
+    <string name="nombreusu">Introduce o teu nome de usuario*</string>
+    <string name="contrasena">Contrasinal</string>
+    <string name="passw">Introduce o teu contrasinal*</string>
+    <string name="passwo">Introduce o contrasinal(mínimo 7 caract.)*</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="regi">Rexistro</string>
+    <string name="nomb">Introduce o teu email</string>
+    <string name="log">Login</string>
+    <string name="fecha">Introduce a túa data de nacemento*</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cerrar sesión</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="menu_lugar">Onde xogar</string>
+    <string name="menu_clasi">Clasificación</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_not">Novas</string>
+    <string name="localeslista">Ver o listado de locales</string>
+    <string name="buscar">Buscar</string>
+    <string name="galeria">Esta é a galería</string>
+    <string name="home">Billar Coruña é unha aplicación desenvolvida íntegramente por Irene de Ron, para darlle ós aficionados ó pool de A Coruña
+        e alrededores de unha ferramenta que permite estar ó tanto das diferentes competicións que se celebran na zona,
+        ó tempo que facilita a búsqueda de locales onde xogar a través de Google Maps.</string>
+    <string name="novas">Esta é a páxina de novas</string>
+    <string name="clasi">Aínda non se pode ver a clasificación</string>
+    <string name="web1">Bola-8</string>
+    <string name="web2">Spain Pro Snooker</string>
+
+</resources>

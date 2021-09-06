@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compet">
+        <item>Galician league</item>
+        <item>Local league</item>
+        <item>Teams of 2 league (1ª A)</item>
+        <item>Teams of 2 league (2ª A)</item>
+        <item>Teams of 2 league (1ª B)</item>
+        <item>Teams of 2 league (2ª B)</item>
+        <item>Provincial circuit 2ª</item>
+        <item>Provincial circuit 3ª</item>
+        <item>One-to-one 2ª</item>
+        <item>One-to-one 3ª</item>
+        <item>One-to-one 4ª</item>
+    </string-array>
+</resources>

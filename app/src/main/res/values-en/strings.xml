@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Billar Coruña</string>
+    <string name="usu">Username</string>
+    <string name="email">Email</string>
+    <string name="email1">Type your email</string>
+    <string name="nombreusu">Type your username*</string>
+    <string name="contrasena">Password</string>
+    <string name="passw">Type your password*</string>
+    <string name="passwo">Type your password(min 7 caract.)*</string>
+    <string name="login">Login</string>
+    <string name="regi">Sign up</string>
+    <string name="nomb">Type your email</string>
+    <string name="log">Login</string>
+    <string name="fecha">Type your birthday*</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Log out</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_lugar">Where can I play?</string>
+    <string name="menu_clasi">Classification</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_not">News</string>
+    <string name="localeslista">See the local`s list</string>
+    <string name="buscar">Search</string>
+    <string name="galeria">This is the gallery</string>
+    <string name="home">Billar Coruña is an app created by Irene de Ron, which gives A Coruña`s pool players a tool
+        for see the championships and locate the places where this championships are played.</string>
+    <string name="novas">This is the news page</string>
+    <string name="clasi">The classification isn´t active now.</string>
+    <string name="web1">Bola-8</string>
+    <string name="web2">Spain Pro Snooker</string>
+</resources>

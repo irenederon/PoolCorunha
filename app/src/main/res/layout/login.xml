@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/bolasbillar"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/estiloTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/usu1"
+        android:gravity="left"
+        android:text="@string/email"
+        android:textSize="20dp"
+        style="@style/estiloLetras"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:hint="@string/email1"
+        android:inputType="textEmailAddress"
+        style="@style/estiloLetras"/>
+
+    <TextView
+        android:id="@+id/contrasena"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:text="@string/contrasena"
+        android:textSize="20dp"
+        style="@style/estiloLetras"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:hint="@string/passw"
+        android:inputType="textPassword"
+        style="@style/estiloLetras"/>
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="xestionarEventos"
+        android:text="@string/login"
+        style="@style/estiloBotones"/>
+
+    <Button
+        android:id="@+id/registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="xestionarEventos"
+        android:text="@string/regi"
+        style="@style/estiloBotones"/>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="10dp"
+        android:layout_height="12dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="64dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/password"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+</LinearLayout>

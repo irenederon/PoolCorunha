@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genero">
+        <item>Selecciona o teu xénero</item>
+        <item>Feminino</item>
+        <item>Masculino</item>
+        <item>Prefiro non decilo</item>
+    </string-array>
+</resources>

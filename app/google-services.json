@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "222528618611",
+    "firebase_url": "https://poolcorunha-96cdb.firebaseio.com",
+    "project_id": "poolcorunha-96cdb",
+    "storage_bucket": "poolcorunha-96cdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222528618611:android:cf07063067060462782a06",
+        "android_client_info": {
+          "package_name": "com.example.poolcorunha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222528618611-qdecssh042vfv368n01cv11fh59an5hi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.poolcorunha",
+            "certificate_hash": "65c48104108938e209eae3f60e0b70b6e33a188c"
+          }
+        },
+        {
+          "client_id": "222528618611-lmaub90t6lapcsr67t5jiuqjcbds7b01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVb4bP4IpxPG5dvIa16M3MjkVL1Apx1EQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222528618611-lmaub90t6lapcsr67t5jiuqjcbds7b01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/bolasbillar"
+    android:gravity="center|center_vertical"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:hint="@string/nomb"
+        android:inputType="textEmailAddress"
+        style="@style/estiloLetras"/>
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombreusu"
+        style="@style/estiloLetras"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:hint="@string/passwo"
+        android:inputType="textPassword"
+        style="@style/estiloLetras"/>
+
+    <EditText
+        android:id="@+id/fecha"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:drawableLeft="@drawable/calendario"
+        android:focusable="false"
+        android:hint="@string/fecha"
+        android:inputType="date"
+        android:maxLines="1"
+        style="@style/estiloLetras"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:entries="@array/genero"
+        style="@style/estiloLetras"/>
+
+    <Button
+        android:id="@+id/registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="xestionarEventos"
+        android:text="@string/regi"
+        style="@style/estiloBotones"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="106dp" />
+</LinearLayout>

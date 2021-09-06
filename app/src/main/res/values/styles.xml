@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blanco</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/skyblue</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="estiloTitulo" >
+        <item name="android:fontFamily">@font/narrenschiffregular</item>
+        <item name="android:textSize">50dp</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="estilotit" >
+        <item name="android:fontFamily">@font/narrenschiffregular</item>
+        <item name="android:textColor">@color/boton</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="estilomenu" >
+        <item name="android:fontFamily">@font/narrenschiffregular</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="botonesFoto">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="estiloBotones" >
+        <item name="android:fontFamily">@font/narrenschiffregular</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:backgroundTint">@color/boton</item>
+    </style>
+
+    <style name="estiloLetras" >
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
+</resources>

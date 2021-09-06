@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compet">
+        <item>Liga galega</item>
+        <item>Liga local</item>
+        <item>Liga equipos de 2 (1ª A)</item>
+        <item>Liga equipos de 2 (2ª A)</item>
+        <item>Liga equipos de 2 (1ª B)</item>
+        <item>Liga equipos de 2 (2ª B)</item>
+        <item>Circuito provincial 2ª</item>
+        <item>Circuito provincial 3ª</item>
+        <item>Individual 2ª</item>
+        <item>Individual 3ª</item>
+        <item>Individual 4ª</item>
+    </string-array>
+</resources>
